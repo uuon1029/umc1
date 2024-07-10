@@ -12,5 +12,4 @@ class ConfigVPAdapter(fragment: Fragment) : FragmentStateAdapter(fragment) {
             else -> TabTest2Fragment()
         }
     }
-
 }
