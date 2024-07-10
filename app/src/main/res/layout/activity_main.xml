@@ -2,6 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/select_color"
+    android:fitsSystemWindows="true"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <FrameLayout
@@ -16,6 +18,9 @@
         android:layout_height="wrap_content"
         app:menu="@menu/bottom_navigation_menu"
         app:labelVisibilityMode="labeled"
+        android:background="@color/black"
+        app:itemIconTint="@drawable/bottom_navigation_color"
+        app:itemTextColor="@drawable/bottom_navigation_color"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
