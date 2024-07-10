@@ -22,5 +22,4 @@ class TabTest1Fragment : Fragment(){
 
         return binding.root
     }
-
 }
