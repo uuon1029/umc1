@@ -16,7 +16,8 @@
         <item name="windowNoTitle">true</item>
 
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">@color/transparent</item>
-        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+
     </style>
 </resources>
