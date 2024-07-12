@@ -3,7 +3,6 @@ package com.example.umc1
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.umc1.databinding.FragmentTabTest2Binding
 import com.example.umc1.databinding.ItemShopBinding
 
 class ShopRVAdapter() : RecyclerView.Adapter<ShopRVAdapter.ViewHolder>(){
