@@ -15,8 +15,6 @@ import kotlin.concurrent.timer
 
 class HomeFragment : Fragment(){
 
-
-
     lateinit var binding: FragmentHomeBinding
 
     override fun onCreateView(
@@ -26,7 +24,9 @@ class HomeFragment : Fragment(){
     ): View? {
         binding = FragmentHomeBinding.inflate(inflater, container, false)
 
-
+        val bannerAdapter = HomeBannerVPAdapter(this)
+        binding.homeBannerVp.adapter = bannerAdapter
+        binding.homeBannerVp.orientation = ViewPager2.ORIENTATION_HORIZONTAL
 
         return binding.root
     }
