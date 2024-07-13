@@ -9,7 +9,7 @@ class HomeBannerVPAdapter(fragment: Fragment) : FragmentStateAdapter(fragment) {
 
     override fun createFragment(position: Int): Fragment{
         return when(position) {
-            0 -> HomeBanne1rFragment()
+            0 -> HomeBanner1Fragment()
             else -> HomeBanner2Fragment()
         }
     }
